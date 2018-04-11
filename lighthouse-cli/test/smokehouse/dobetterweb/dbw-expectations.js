@@ -35,13 +35,13 @@ module.exports = [
         extendedInfo: {
           value: {
             results: {
-              length: 18,
+              length: 17,
             },
           },
         },
         details: {
           items: {
-            length: 18,
+            length: 17,
           },
         },
       },
@@ -184,47 +184,6 @@ module.exports = [
             length: 1,
           },
         },
-      },
-    },
-  }, {
-    initialUrl: 'http://localhost:10200/online-only.html',
-    url: 'http://localhost:10200/online-only.html',
-    audits: {
-      'is-on-https': {
-        score: 1,
-      },
-      'uses-http2': {
-        score: 0,
-      },
-      'external-anchors-use-rel-noopener': {
-        score: 1,
-      },
-      'appcache-manifest': {
-        score: 1,
-      },
-      'geolocation-on-start': {
-        score: 1,
-      },
-      'link-blocking-first-paint': {
-        score: 1,
-      },
-      'no-document-write': {
-        score: 1,
-      },
-      'no-mutation-events': {
-        score: 1,
-      },
-      'no-websql': {
-        score: 1,
-      },
-      'script-blocking-first-paint': {
-        score: 1,
-      },
-      'uses-passive-event-listeners': {
-        score: 1,
-      },
-      'password-inputs-can-be-pasted-into': {
-        score: 1,
       },
     },
   },

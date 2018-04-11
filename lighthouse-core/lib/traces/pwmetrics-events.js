@@ -221,7 +221,7 @@ class Metrics {
   }
 
   /**
-   * @returns {!Array} User timing raw trace event pairs
+   * @returns {Array<LH.TraceEvent>} User timing raw trace event pairs
    */
   generateFakeEvents() {
     const fakeEvents = [];
